@@ -1,0 +1,23 @@
+
+amount = 650
+five_hundred = amount // 500
+remaining_balance = amount % 500
+
+print("Five Hundred notes (500):", five_hundred)
+
+hundred=remaining_balance//100
+remaining=remaining_balance%100
+
+print("Hundred notes (100):",hundred)
+
+
+fifty=remaining//50
+remaining_money=remaining%50
+
+print("Fifty notes (50):",fifty)
+
+ten=remaining_money//10
+balance=remaining_money %10
+
+print("Ten notes (10):",ten)
+print("Remaining:", balance)
