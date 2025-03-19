@@ -1,0 +1,13 @@
+a = input("Enter your choice:").lower()
+b = input("Enter your friend's choice:ukc.").lower()
+
+s = "scissors"
+r = "rock"
+p = "paper"
+
+if a == b:
+    print("Tie!")
+elif (a == s and b == p) or (a == r and b == s) or (a == p and b == r):
+    print("a wins the game")
+else:
+    print("b wins the game")
