@@ -1,0 +1,4 @@
+
+for a in range(0,100):
+    print("Hello")
+print("it will be printed:",len(range(0,100)),"times")
