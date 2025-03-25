@@ -1,0 +1,5 @@
+l1=[1,2,3,4,6]
+s=0
+for i in range(len(l1)):
+  s+=l1[i]
+print(s)
